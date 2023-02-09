@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomepage" class="bg-color container">
+        <h1 class="book-name">Popular Book</h1>
+        <div class="top-box d-flex flex-row mb-2">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="box-img" />
+            <div class="pad">
+                <h1 class="home-book-name">Wings of Fire</h1>
+                <p class="popular-book-text">An Autobiography of <br />of Abdul Kalam</p>
+                <p class="author">by Arun Tiwari</p>
+                <button class="btn btn-primary button" onclick="display('sectionkalam')">Read Now</button>
+            </div>
+        </div>
+        <h1 class="recommend">Recommend Books</h1>
+        <div class="d-flex flex-row m-4">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="small-img mr-3 mb-2" />
+            <div>
+                <p class="book-name-small">The 3 mistakes of my life</p>
+                <p class="popular-book-text color">Indian author </br>by Chetan Bhogat</p>
+                <button class="btn btn-primary button" onclick="display('section3mistakes')">Read Now</button>
+            </div>
+        </div>
+        <div class="d-flex flex-row m-4">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="small-img mr-3 mb-2" />
+            <div>
+                <p class="book-name-small">Harry Potter </p>
+                <p class="popular-book-text color">and the Sorcerer's Stone</br>by J.K.Rowling</p>
+                <button class="btn btn-primary button" onclick="display('sectionharrypotter')">Read Now</button>
+            </div>
+        </div>
+        <div class="d-flex flex-row m-4">
+            <img src="https://res.cloudinary.com/dxhr35o8l/image/upload/v1675956476/OIP_wfhr34.jpg" class="small-img mr-3 mb-2" />
+            <div>
+                <p class="book-name-small">The Subtle Art of not Giving a Fu*k</p>
+                <p class="popular-book-text color">Mark Manson</p>
+                <button class="btn btn-primary button" onclick="display('sectionSubtleArt')">Read Now</button>
+            </div>
+        </div>
+        <div class="d-flex flex-row m-4">
+            <img src="https://res.cloudinary.com/dxhr35o8l/image/upload/v1675956714/Rich-Dad-Poor-Dad-Paperback-SDL880837687-1-1f528_j4s9pl.jpg" class="small-img mr-3 mb-2" />
+            <div>
+                <p class="book-name-small">Rich Dad Poor Dad</p>
+                <p class="popular-book-text color"> Robert T. Kiyosaki </br> Sharon Lechter.</p>
+                <button class="btn btn-primary button" onclick="display('sectionRichDad')">Read Now</button>
+            </div>
+        </div>
+        <div class="d-flex flex-row m-4">
+            <img src="https://res.cloudinary.com/dxhr35o8l/image/upload/v1675958739/4029101B-419E-40E2-914E-1A5A13CFE35A-1325x2048_qh9n0b.jpg" class="small-img mr-3 mb-2" />
+            <div>
+                <p class="book-name-small">Psychology of Money</p>
+                <p class="popular-book-text color"> Morgan Housel</p>
+                <button class="btn btn-primary button" onclick="display('sectionPsychologyofMoney')">Read Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionkalam">
+        <div class="book-details-page">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="big-img mb-3" />
+            <h1 class="book-name">Wings of Fire</h1>
+            <p class="by-author">by Arun Tiwari</p>
+            <p class="discription">Every common man who by his sheer grit and hard work achieves success should share his story with the rest
+                for they may find inspiration and strength to go on, in his story. The Wings of Fire' is one such autobiography by visionary scientist
+                Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is
+                full of insights, personal moments and life experiences of Dr. Kalam. It gives us an understanding on his journey of success.
+            </p>
+            <button class="btn btn-warning button" onclick="display('sectionhomepage')">Back</button>
+            <a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461/ref=sr_1_1?hvadid=83082020027897&hvbmt=be&hvdev=c&hvqmt=e&keywords=wings+fire&qid=1675960867&s=books&sr=1-1" target="_blank">
+                <button class="btn btn-primary button">Buy Now</button>
+            </a>
+        </div>
+    </div>
+    <div id="section3mistakes">
+        <div class="book-details-page">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="big-img mb-3" />
+            <h1 class="book-name">The 3 mistakes of my life</h1>
+            <p class="by-author">by Chetan Bhogat</p>
+            <p class="discription">This book was written by famous Indian author and columnist Chetan Bhagat in 2008.
+                This is a friendship novel. The full story of this famous novel based on three friends in the city of Ahmedabad in western India.
+                The Three Mistakes Of My Life published on 1 January 2008 in the Gujarati language.
+                This is one of the best book written by Chetan Bhagat and become the third best selling book of Chetan Bhagat.Movie Kai Po Che is based
+                on this book. And the public loves the movie.This is a big success for the novel and Chetan Bhagat.
+            </p>
+            <button class="btn btn-warning button" onclick="display('sectionhomepage')">Back</button>
+            <a href="https://www.amazon.in/dp/B005N1JFC0/?tag=msndeskstdin-21&hvadid=73186540363682&hvqmt=e&hvbmt=bb&hvdev=c&ref=pd_sl_6zcddz6beg_b" target="_blank">
+                <button class="btn btn-primary button">Buy Now</button>
+            </a>
+        </div>
+    </div>
+    <div id="sectionharrypotter">
+        <div class="book-details-page ">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="big-img mb-3" />
+            <h1 class="book-name">Harry Potter</h1>
+            <p class="by-author">by J.K.Rowling</p>
+            <p class="discription">Harry Potter is a young orphan who discovers he is a wizard and attends Hogwarts
+                School of Witchcraft and Wizardry. With the help of his friends Ron Weasley and Hermione Granger, Harry
+                battles the evil Lord Voldemort, who killed his parents and seeks to gain control of the wizarding world.
+                Throughout the series, Harry faces numerous challenges and
+                discovers more about his family and magical powers, eventually leading to the defeat of Voldemort.
+            </p>
+            <button class="btn btn-warning button" onclick="display('sectionhomepage')">Back</button>
+            <a href="https://www.amazon.in/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658/ref=sr_1_3?keywords=harry+potter&qid=1675961290&s=books&sprefix=harry%2Cstripbooks%2C336&sr=1-3" target="_blank">
+                <button class="btn btn-primary button">Buy Now</button>
+            </a>
+        </div>
+    </div>
+    <div id="sectionSubtleArt">
+        <div class="book-details-page">
+            <img src="https://res.cloudinary.com/dxhr35o8l/image/upload/v1675956476/OIP_wfhr34.jpg" class="big-img mb-3" />
+            <h1 class="book-name">The Subtle Art of not Giving a Fu*k</h1>
+            <p class="by-author">Mark Manson</p>
+            <p class="discription">The Subtle Art of Not Giving a Fck is a self-help book written by Mark Manson.
+                The book advocates for embracing personal problems and negative emotions as a means of finding meaning
+                and happiness in life. Manson argues that most people waste their time and energy on things that don't matter,
+                such as striving for perfection or seeking external validation, instead of focusing on what truly matters to them.
+                He encourages readers to identify their values and priorities, and then give less importance to the things that do
+                not align with those values. The book is written in a humorous and relatable style and aims to help readers
+                live a more fulfilling life by learning to not give a fck about things that do not matter.
+            </p>
+            <button class="btn btn-warning button" onclick="display('sectionhomepage')">Back</button>
+            <a href="https://www.amazon.in/Subtle-Art-Not-Giving/dp/0062641549/ref=sr_1_1?keywords=subtle+art+of+not+giving+a+fck&qid=1675961350&s=books&sprefix=sub%2Cstripbooks%2C278&sr=1-1" target="_blank">
+                <button class="btn btn-primary button">Buy Now</button>
+            </a>
+        </div>
+    </div>
+    <div id="sectionRichDad">
+        <div class="book-details-page h-100">
+            <img src="https://res.cloudinary.com/dxhr35o8l/image/upload/v1675956714/Rich-Dad-Poor-Dad-Paperback-SDL880837687-1-1f528_j4s9pl.jpg" class="big-img mb-3" />
+            <h1 class="book-name">Rich Dad Poor Dad</h1>
+            <p class="by-author">Robert T. Kiyosaki and Sharon Lechter</p>
+            <p class="discription">Rich Dad, Poor Dad is a personal finance book written by Robert Kiyosaki. The book is based on the
+                author's own experiences growing up with two father figures - his biological father (the "poor dad") and his friend's father
+                (the "rich dad") - and the lessons he learned from each of them about money and financial literacy. The rich dad taught Kiyosaki about wealth
+                creation through investing and entrepreneurialism, while the poor dad emphasized the importance of getting a good education and working hard for a steady paycheck.
+                The book argues that traditional methods of building wealth, such as getting a good education and working for a steady salary, are flawed and that the real key to wealth
+                is developing financial literacy and becoming an entrepreneur.
+                The book aims to challenge readers' perceptions about money and encourage them to take control of their financial future.
+            </p>
+            <button class="btn btn-warning button" onclick="display('sectionhomepage')">Back</button>
+            <a href="https://www.amazon.in/Rich-Dad-Poor-Middle-Anniversary/dp/1612681131/ref=sr_1_3?keywords=rich+dad+poor+dad+book&qid=1675961639&s=books&sprefix=ric%2Cstripbooks%2C374&sr=1-3" target="_blank">
+                <button class="btn btn-primary button">Buy Now</button>
+            </a>
+        </div>
+    </div>
+    <div id="sectionPsychologyofMoney">
+        <div class="book-details-page h-100">
+            <img src="https://res.cloudinary.com/dxhr35o8l/image/upload/v1675958739/4029101B-419E-40E2-914E-1A5A13CFE35A-1325x2048_qh9n0b.jpg" class="big-img mb-3" />
+            <h1 class="book-name">Psychology of Money</h1>
+            <p class="by-author"> Morgan Housel</p>
+            <p class="discription">The Psychology of Money is a book by Morgan Housel that explores the relationship between money and human behavior.
+                The book argues that our thoughts and actions surrounding money are heavily influenced by our emotions and beliefs, which often have little
+                to do with rational decision making. The author uses stories and historical events to illustrate how our understanding of money is shaped by
+                societal norms and how these norms impact our financial choices. The book also explores how money affects different aspects of our lives, such as relationships,
+                health, and happiness, and how our behavior changes as our financial situation changes. The book aims to help readers understand the psychological
+                and emotional factors that influence their financial decisions and to provide a new perspective on the role of money in their lives.
+            </p>
+            <button class="btn btn-warning button" onclick="display('sectionhomepage')">Back</button>
+            <a href="https://www.amazon.in/Psychology-Money-Morgan-Housel/dp/9390166268/ref=sr_1_1_sspa?keywords=psychology+of+money&qid=1675961373&s=books&sprefix=psy%2Cstripbooks%2C376&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">
+                <button class="btn btn-primary button">Buy Now</button>
+            </a>
+        </div>
+    </div>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-color {
+    background-image: linear-gradient(#0f5a88, #1b1b1b);
+    height: 100%;
+    padding: 20px;
+}
+
+.book-name {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.top-box {
+    background-color: #e6f6ff;
+    border-radius: 10px;
+}
+
+.pad {
+    padding: 20px;
+}
+
+.box-img {
+    width: 120px;
+}
+
+.home-book-name {
+    font-family: "Bree Serif";
+    font-size: 18px;
+    color: #183b56;
+}
+
+.popular-book-text {
+    color: #06070d;
+    font-size: 13px;
+    font-family: "Bree Serif";
+}
+
+.author {
+    font-size: 10px;
+    font-family: "Bree Serif";
+    color: #183b56;
+}
+
+.button {
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-right: 16px;
+    border-width: 0px;
+}
+
+.button:hover {
+    background-color: #077d8a;
+    transform: scale(1.2);
+    cursor: all-scroll;
+}
+
+.recommend {
+    font-family: "Bree Serif";
+    font-size: 24px;
+    color: #e4e7eb;
+}
+
+.small-img {
+    width: 90px;
+}
+
+.book-name-small {
+    font-family: 16px;
+    color: #ffffff;
+    font-family: "Bree Serif";
+
+}
+
+.color {
+    color: #e4e7eb;
+}
+
+.book-details-page {
+    background-color: #1b1b1b;
+    text-align: center;
+    height: 100vh;
+    padding: 24px;
+}
+
+.big-img {
+    width: 190px;
+    height: 294px;
+}
+
+.by-author {
+    font-size: 10px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    color: #9aa5b1;
+}
+
+.discription {
+    font-size: 17px;
+    text-align: left;
+    font-family: "Bree Serif";
+    color: #e4e7eb;
+    margin-bottom: 50px;
+}
+</style>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
